@@ -1,4 +1,0 @@
-quiz-app
-========
-
-Quiz application
