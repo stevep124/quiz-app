@@ -1,0 +1,29 @@
+<ion-view title="Congratulations!" >
+ <ion-content class="panel-green">
+
+
+   		<div class="card">
+   		  <div class="item item-divider">
+   		    <h2>Movies Quiz</h2>
+   		  </div>
+   		  <div class="item item-text-wrap">
+   		    {{ date | date:'fullDate' }}
+   		  </div>
+
+   		</div>
+
+   		<div class="card">
+   		  <div class="item item-divider">
+			<p>Your Final Score Is:</p>
+		</div>
+
+		<div class="item item-text-wrap">
+			<h1>{{ totalScore }}</h1>
+		</div>
+
+		</div>
+		<a href="#/start"><button class="button button-block button-positive">Restart</button></a>
+
+
+ 	</ion-content>
+</ion-view>

@@ -1,0 +1,18 @@
+<ion-view title="Question {{ question.order }} of {{ questions.length }}" >
+    <ion-content>
+     <div class="card">
+       <div class="item item-text-wrap">
+         {{ question.text }}
+       </div>
+     </div>
+
+    <div id="answers" class="answers">
+     	<answer ng-repeat="answer in question.answers"></answer>
+     </div>
+
+    <total-score></total-score>
+
+    <countdown-timer></countdown-timer>
+
+    </ion-content>
+  </ion-view>

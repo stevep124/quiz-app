@@ -1,0 +1,79 @@
+/* Empty. Add your own CSS if you like */
+body
+{
+	overflow: visible;
+	font-family: 'Helvetica', Arial, sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.answer
+{
+	background-color: #2989d8;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+.answer:nth-child(1)
+{
+	background-color: #F74040;
+}
+.answer:nth-child(2)
+{
+	background-color: #27AE60;
+}
+.answer:nth-child(3)
+{
+	background-color: #F2E03E;
+}
+
+.question
+{
+	height: 100px;
+	background-color: #F5F5F5;
+	width: 1010px;
+	margin: 30px auto;
+	padding: 30px;
+	text-align: center;
+	font-size: 2em;
+	line-height: 1em;
+	box-shadow: 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card{
+	text-align: center;
+}
+
+.button.button-white.button-outline
+{
+	border-color: #FFFFFF;
+	background: transparent;
+	color: #FFFFFF;
+}
+
+.panel-blue, .panel-green
+{
+	background: #4a87ee;
+	width: 100%;
+	height: 100%;
+}
+
+.panel-green
+{
+	background: #66cc33
+}
+
+.start-button
+{
+	margin: 0 0 0 -51px;
+	top: 50%;
+	left: 50%;
+}
+
+.time, .score
+{
+	padding: 20px 0;
+}
